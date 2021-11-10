@@ -17,8 +17,8 @@ namespace Line_Comparison
             int Y1 = Convert.ToInt32(Console.ReadLine());
             int Y2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your X1 is: " + X1 + "\nYour X2 is: " + X2 + "\nYour Y1 is: " + Y1 + "\nYour Y2 is: " + Y2);
-            double Lenth_of_line = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2));
-            Console.WriteLine("Your Lenth of line is: " + Lenth_of_line);
+            double Length_of_line = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2));
+            Console.WriteLine("Your Lenth of line is: " + Length_of_line);
             Console.ReadLine();
         }
     }
